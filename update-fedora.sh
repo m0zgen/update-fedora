@@ -13,7 +13,7 @@ akmods --force
 # Create initial ramdisk images for preloading modules
 dracut -f /boot/initramfs-$(uname -r).img $(uname -r)
 
-# Update grub
+# Update grub (uncomment if you need)
 # grub2-mkconfig -o /boot/grub2/grub.cfg
 
 # Reboot yes / no
